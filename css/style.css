@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 30%;
+  text-align: center;
+}
+
+.caption > p {
+  display: inline;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 35px;
+  align-items: stretch;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.parallax1 {
+  position: relative;
+  background-image: url('../images/parallax1.jpg');
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.parallax2 {
+  background-image: url('../images/parallax2.jpg');
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.parallax3 {
+  background-image: url('../images/parallax3.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.parallax4 {
+  position: relative;
+  background-image: url('../images/parallax4.jpg');
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.freedom_quote {
+  font-family: arial;
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+  background-color: #373F47;
+  padding: 50px;
+}
